@@ -25,6 +25,15 @@ declare(strict_types=1);
 
 namespace blugin\utils\string;
 
+use function preg_replace;
+use function strcasecmp;
+use function strcmp;
+use function stripos;
+use function strlen;
+use function strpos;
+use function strrpos;
+use function substr;
+
 class StringUtil{
     private function __construct(){
     }
